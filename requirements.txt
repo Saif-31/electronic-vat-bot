@@ -8,5 +8,5 @@ streamlit==1.25.0
 sentence-transformers
 langchain-core
 python-dotenv==1.0.0
-
+pillow
 
