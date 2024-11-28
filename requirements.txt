@@ -3,10 +3,11 @@ langchain-mistralai==0.2.2
 langchain-pinecone
 langchain-huggingface
 pinecone-client
-torch==2.2.2+cu118  # Use CUDA 11.8 compatible version of PyTorch
+torch==2.2.2  # CPU-only version
 streamlit==1.19.0
 sentence-transformers
 langchain-core
 python-dotenv==1.0.0
 Pillow
 numpy
+
