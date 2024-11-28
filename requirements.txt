@@ -3,8 +3,8 @@ langchain-mistralai==0.2.2
 langchain-pinecone
 langchain-huggingface
 pinecone-client
-torch
-streamlit
+torch==2.0.1
+streamlit==1.19.0
 sentence-transformers
 langchain-core
 python-dotenv==1.0.0
