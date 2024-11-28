@@ -9,8 +9,5 @@ sentence-transformers
 langchain-core
 python-dotenv==1.0.0
 Pillow
---upgrade pip
-Pillow
-streamlit
 numpy
 
