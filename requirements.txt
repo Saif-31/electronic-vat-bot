@@ -3,11 +3,10 @@ langchain-mistralai==0.2.2
 langchain-pinecone
 langchain-huggingface
 pinecone-client
-torch==2.0.1
-streamlit==1.19.0
+torch==2.2.2  # Using the latest stable torch version available
+streamlit==1.19.0  # Latest stable version of Streamlit
 sentence-transformers
 langchain-core
 python-dotenv==1.0.0
 Pillow
 numpy
-
