@@ -3,7 +3,7 @@ langchain-mistralai==0.2.2
 langchain-pinecone
 langchain-huggingface
 pinecone-client
-torch==2.1.0
+torch
 streamlit==1.25.0
 sentence-transformers
 langchain-core
