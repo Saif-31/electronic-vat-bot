@@ -4,9 +4,13 @@ langchain-pinecone
 langchain-huggingface
 pinecone-client
 torch
-streamlit==1.25.0
+streamlit
 sentence-transformers
 langchain-core
 python-dotenv==1.0.0
-pillow
+Pillow
+--upgrade pip
+Pillow
+streamlit
+numpy
 
