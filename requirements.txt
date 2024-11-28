@@ -1,15 +1,12 @@
-langchain==[latest_version]
-langchain-mistralai==[compatible_version]
-langchain-pinecone==0.2.0
-langchain-huggingface==[compatible_version]
-pinecone-client==[compatible_version]
-torch==[compatible_version]
-streamlit==[compatible_version]
-sentence-transformers==[compatible_version]
+langchain
+langchain-mistralai==0.2.2
+langchain-pinecone
+langchain-huggingface
+pinecone-client
+torch==2.1.0
+streamlit==1.25.0
+sentence-transformers
 langchain-core
-python-dotenv
-
-
-
+python-dotenv==1.0.0
 
 
