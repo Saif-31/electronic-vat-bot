@@ -1,9 +1,10 @@
+altair==4.2.2
 langchain
 langchain-mistralai==0.2.2
 langchain-pinecone
 langchain-huggingface
 pinecone-client
-torch==2.2.2  # CPU-only version
+torch==2.2.2  # CPU-only version of PyTorch
 streamlit==1.19.0
 sentence-transformers
 langchain-core
