@@ -84,8 +84,7 @@ llm = ChatMistralAI(model="mistral-large-latest", system_message=system_prompt)
 
 # Initialize Pinecone for vector database
 PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
-PINECONE_ENVIRONMENT = "us-east-1"  # Ensure this matches your Pinecone environment
-pc = Pinecone(api_key=PINECONE_API_KEY, environment=PINECONE_ENVIRONMENT)
+pc = Pinecone(api_key=PINECONE_API_KEY)
 
 # Connect to Pinecone index
 index_name = "electronicinvoice1"
