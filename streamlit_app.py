@@ -1,7 +1,7 @@
 import os
 import torch
 import streamlit as st
-from pinecone import Pinecone
+import pinecone
 from langchain_mistralai import ChatMistralAI
 from langchain.prompts.chat import ChatPromptTemplate
 from langchain.chains import RetrievalQA
@@ -83,12 +83,19 @@ Moj cilj je da korisnicima pružim najkvalitetnije i najdetaljnije informacije k
 llm = ChatMistralAI(model="mistral-large-latest", system_message=system_prompt)
 
 # Initialize Pinecone for vector database
+import pinecone
+
 PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
-pc = Pinecone(api_key=PINECONE_API_KEY)
+PINECONE_ENVIRONMENT = "us-east-1"
+
+pinecone.init(
+    api_key=PINECONE_API_KEY,
+    environment=PINECONE_ENVIRONMENT
+)
 
 # Connect to Pinecone index
 index_name = "electronicinvoice1"
-index = pc.Index(index_name)
+index = pinecone.Index(index_name)
 
 # Initialize embedding model
 embedding_function = HuggingFaceEmbeddings(
