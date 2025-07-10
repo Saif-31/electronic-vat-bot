@@ -3,7 +3,7 @@ langchain
 langchain-mistralai==0.2.2
 langchain-pinecone
 langchain-huggingface
-pinecone-client
+pinecone
 torch==2.2.2  # CPU-only version of PyTorch
 streamlit==1.19.0
 sentence-transformers
